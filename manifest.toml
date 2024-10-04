@@ -43,8 +43,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/Indexhibit/indexhibit/archive/4d37bf6cd2d8de237f3ed72b773fe9e1b4351422.tar.gz"
-        sha256 = "f087b549c79aeb1a82269fdebe7f2ae6c179c6728ba84972443b0c893f7a2117"
+        url = "https://github.com/Indexhibit/indexhibit/archive/refs/heads/master.tar.gz"
+        sha256 = "3af0bd98356a3932401c3ca625b55f6075eeff3a16d4dbf9b46dc93f7712060e"
         autoupdate.strategy = "latest_github_commit"
         autoupdate.force_version = "2.1.%Y.%m.%d"
 
